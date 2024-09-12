@@ -6,10 +6,14 @@
    import Contador from './components/Contador.vue';
   import ProdutoReativoNaoPrimitivo from './components/ProdutoReativoNaoPrimitivo.vue';
 import Formulario from './components/Formulario.vue';
+import Carrinho from './components/Carrinho.vue';
+
+
 </script>
 
 <template>
   <div>
+    <Carrinho/>
     <ProdutoReativos/>
     <PrimeiroComponent/>
     <Produtos/>
