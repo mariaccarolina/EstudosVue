@@ -10,10 +10,11 @@ const valor = ref(true);
     <button @click="contador --" v-if="contador > 0">Clique para adicionar</button>
     <h3>{{ contador }}</h3>
 
-    <button @click="valor = !valor">Trocar de estilo</button>
+    <!-- <button @click="valor = !valor">Trocar de estilo</button>
             {{valor }}
-     <p :class="{trocar: !valor}"  >Eu vou trocar de estilo</p>
-
+     <p :class="{trocar: !valor}"  >Eu vou trocar de estilo</p> -->
+    <button @click="valor = !valor">Mude a cor:</button>
+    <p :class="{trocar: !valor}">Olá! Irei trocar!</p>*
 
 </template>
 
